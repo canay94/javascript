@@ -39,3 +39,6 @@ O marca el: ‪(US) +1 954-800-9061‬ PIN: ‪481 093 416‬#
 ⌨️ Con ❤️ por Alejandro César Rico Martínez - [@canay94](https://twitter.com/canay94)
 
 [alejandro.rico@tecsuperiorslp.edu.mx](mailto:alejandro.rico@tecsuperiorslp.edu.mx?subject=Saludos "Hi!")
+
+
+![itsslpc](images/logo_azul_2.png)
