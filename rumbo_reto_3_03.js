@@ -37,3 +37,7 @@ array_average(arreglo2);
 
 iguales_y_no_iguales(arreglo1, arreglo2);
 
+let arr = [1, 2, 3, 4]
+arr.forEach((item) => {
+  console.log(item)
+})
