@@ -1,7 +1,7 @@
 var alice=[17,28,30];
 var bob=[99,16,8];
 //var solution=[17+99, 28+16, 30+8]
-var solution=[]
+var solution=[];
 
 // function read 2 arrays, and return the sum in other array solution
 
@@ -37,6 +37,12 @@ function array_total_1(a, b){
 
 }
 
+
 console.log(solution);
 array_total_1(alice, bob);
 console.log(solution);
+
+for(var i = 0; i < solution.length; i++)
+    {
+        console.log("The value of position ", i, "is ", solution[i]);
+    }
