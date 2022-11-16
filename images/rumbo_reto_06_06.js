@@ -1,12 +1,11 @@
 // Plus Minus
-// https://www.geeksforgeeks.org/javascript-math-sign-function/
-// proportion of positive, negative, zeros values
 arr = [-4, 3, -9, 0, 4, 1]
 
 function plusMinus(arr) {
     let positive = 0;
     let negative = 0;
     let zeros = 0;
+    let size = arr.length;
 
     for(var i = 0; i < arr.length; i+=1)
     {
@@ -20,9 +19,14 @@ function plusMinus(arr) {
             zeros+=1
         }
     }
-    console.log("Positive: ", positive)
-    console.log("Negative: ", negative)
-    console.log("Zeros: ", zeros)
+
+    let p_positive = positive / size;
+    let p_negative = negative / size;
+    let p_zeros = zeros / size;
+
+    console.log(p_positive.toFixed(6));
+    console.log(p_negative.toFixed(6));
+    console.log(p_zeros.toFixed(6));
 }
 plusMinus(arr)
 
